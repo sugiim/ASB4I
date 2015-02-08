@@ -50,7 +50,7 @@ public class Main {
 		logger.info("ListSize:"+meigenList.size());
 		logger.info(text);
 
-		//m.sendPost("https://idobata.io/hook/generic/8b530815-5b6b-479b-a493-390efdeb0aec", text);
+		m.sendPost("https://idobata.io/hook/generic/8b530815-5b6b-479b-a493-390efdeb0aec", text);
 
 	}
 
