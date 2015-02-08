@@ -24,7 +24,11 @@ import org.jsoup.select.Elements;
 
 
 
-
+/**
+ * post AgileSamuraiBot contents for Idobata
+ * @author sugiim
+ *
+ */
 public class Main {
 
 	private static final Logger logger = LogManager.getLogger(Main.class);
@@ -45,10 +49,8 @@ public class Main {
 
 		logger.info("ListSize:"+meigenList.size());
 		logger.info(text);
-//		System.out.println("ListSize:"+meigenList.size());
-//		System.out.println(text);
 
-		m.sendPost("https://idobata.io/hook/generic/8b530815-5b6b-479b-a493-390efdeb0aec", text);
+		//m.sendPost("https://idobata.io/hook/generic/8b530815-5b6b-479b-a493-390efdeb0aec", text);
 
 	}
 
